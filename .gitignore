@@ -1,0 +1,7 @@
+# Ignore targets and intermediate files
+/*.gif
+/extracted_*
+/motion/
+/pacing/
+/racing/
+/traced/
