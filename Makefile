@@ -1,6 +1,6 @@
 # ======================================================================
 # Makefile - creates bilevel animated GIFs from image sequences
-# Copyright (C) 2019 John Neffenger
+# Copyright (C) 2019-2020 John Neffenger
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -34,7 +34,7 @@ racing_bitmap = --filter 64 --scale 2 --cubic --threshold 0.50
 traced_bitmap = --filter 4 --scale 2 --cubic --threshold 0.45
 
 # Image processing options
-monochrome = -layers Flatten -dither None -monochrome -negate
+monochrome = -layers Flatten -dither None -monochrome
 animation = -delay 13 -dispose None -loop 0 -background white
 extract = -coalesce -scene 1
 threshold = -threshold 60% -negate
